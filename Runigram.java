@@ -18,7 +18,7 @@ public class Runigram {
 		Color[][] imageOut;
 
 		// Tests the horizontal flipping of an image:
-		imageOut = flippedHorizontally(tinypic);
+		imageOut = scaled(ironman,cake[0].length,cake.length);
 		System.out.println();
 		print(imageOut);
 		
